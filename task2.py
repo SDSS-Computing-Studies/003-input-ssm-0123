@@ -14,7 +14,7 @@
 import math
 
 r = input("Put radius here.")
-r = int(r)
+r = float(r)
 vol = 4/3*math.pi*(r**3)
 
 print(vol)
